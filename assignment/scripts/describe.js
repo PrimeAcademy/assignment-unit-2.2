@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Within the code, we are creating a variable called "name" and giving it the value called "Dane".
+// If the value of "name" is "Mary", then we are logging into the console "Hi, Mary!".
+// Otherwise, we are logging into the console "How do you do?".
+// When this code runs, it will log the words "How do you do?".
 
 //CODE
 /*
@@ -45,10 +45,13 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// In this code, we are creating a variable called "secret" without a value.
+// Then we are creating a variable called "code" with value of 123.
+// If code has the value 123, then we are giving the variable "secret" a value called "super".
+// We are multiplying the variable "code" by 2, which then gives the variable "code" the value of 246.
+// If variable "code" is greater than 250, then we are changing the value of "secret" to "duper".
+// Then we log the variable "secret" into the console.
+// When the code runs, it will log "super".
 
 //CODE
 /*
@@ -70,10 +73,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// We are creating the variable "isStudent" with the boolean value of "true".
+// We are creating the variable "age" with the value of 34.
+// We are creating the variable "zip" with the value of 55407.
+// If "isStudent" is "true" and "zip" is greater than 80000, then we are logging into the console "You're a student on the West Coast!".
+// Otherwise if "isStudent" is "false" or "age" is less than 30, then we are logging into the console "What are your hobbies?"
+// Otherwise if "isStudent" is "true", then we are logging into the console "Welcome to Prime!"
+// If none of the previous statements are run, then we are logging into the console "How about the weather?"
+// When the code runs, it will log into the console "Welcome to Prime!"
 
 //CODE
 /*
@@ -92,9 +99,6 @@ if (isStudent === true && zip > 80000 ) {
 }
 
 */
-
-
-
 
 // REVERSE
 // Now, for questions 4-6, we'll give you a description and some code. 
@@ -130,10 +134,11 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// The colorOne and colorTwo values should be switched.
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
-
+// The colorTwo value should be set to 'purple'
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -146,7 +151,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+// It should have the "and" operator instead of the "or".
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
