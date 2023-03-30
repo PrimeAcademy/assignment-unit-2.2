@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Variable name is Dane
+// If name is equal to Mary it will print "Hi, Mary!"
+// name variable when not equal to Mary will print "How do you do?"
+// This would print How do you do?
 
 //CODE
 /*
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The variable "secret" is set and has a value of undefined. Variable "code" has a integer value of 123
+// If statement evalutes if the value of "code" is 123. Since true the value of secret will change from undefined to 'super'
+// the value of 'code' will be equal to 123 * 2=246. The next if will check if code is greater than 250, which is false. 
+// console.log will print out 'super'
 
 //CODE
 /*
@@ -70,10 +70,10 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// isStudent is True, age is 34 and zip is 55407. 
+// It would not print the first two statements, as zip is less than 80000 and isStudent is true
+// It would print the third statement "Welcome to Prime!" because isStudent = true
+// The last statement would not print because the prior statement was true
 
 //CODE
 /*
@@ -130,10 +130,12 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//colorOne should = 'blue' not 'red' and colorTwo should = 'red' not 'blue'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
+//Only colorOne is changed, add colorTwo = 'purple';
 if (mix === true) {
   colorOne = 'purple';
 }
@@ -147,6 +149,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+//|| is or and && should be used instead 
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -159,7 +162,7 @@ if (temp > 39 || time >= 4) {
 /*
 let age = 21;
 const minAge = 21;
-
+// Change less than sign to greater than. 
 if(minAge <= age) {
   console.log('no entry');
 } else {
