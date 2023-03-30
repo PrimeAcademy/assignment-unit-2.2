@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// Script that sets the variable 'name' to 'Dane". After that, the script compares the name Mary to the variable declaration.
+// Since Mary != Dane, the console will output 'How do you do?' as a result of the 'else' in the if/else loop.
+// console.log('How do you do?')
 //
 
 //CODE
@@ -45,8 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
+// // This program intializes the variable 'secret' and the variable 'code' as 123 (integer). The 'if' loop checks to see if the code
+// is equal to 123 - since it is, code would be equal to double 'code' = 246. The second 'if' loop checks to see if 'code' is > 250, 
+// and if so, sets the variable 'secret' to 'duper'. Since 246 < 250, secret = 'super' and the last line will output that secret to the log.
+// console.log(secret) = 'super'
 // 
 //
 
@@ -70,10 +72,8 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// This program identifies if you are a student, their location,
+// and their age and gives responses based on the input. For this program we console.log Welcome to Prime
 
 //CODE
 /*
@@ -136,6 +136,9 @@ let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+
+// FIX - the script fails to set colorTwo to 'purple' since mix === True will evaluate to true.
+// Line 139 should be colorTwo = 'purple';
 }
 */
 
@@ -148,6 +151,9 @@ let temp = 40;
 const time = 4;
 
 if (temp > 39 || time >= 4) {
+// FIX - the || should be && since both conditions need to evaluate to 'True' in order for us to throw away the food. In
+//current state, either the temp could be below 39 or the time could be greater than or equal to 4 hours and we would throw away the food
+//if (temp > 39 && time >= 4)
   console.log('throw away the food!');
 }
 */
@@ -164,6 +170,9 @@ if(minAge <= age) {
   console.log('no entry');
 } else {
   console.log('enter');
+// FIX line 170 and 172 should be swapped or swap the minAge and age variables. In current state this program compares minAge to age,
+//where we should be comparing age to minAge.
+//if (age <= minAge)
 }
 */
 
