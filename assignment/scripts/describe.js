@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// created a variable and the variable is called name. value od name is Dane. the variable is a data type string.
+// we have a conditional if and else. this is saying if name it's equal to mary console.log will excecute hi mary.
+// we have our other conditional which is an else (false) 
+//console.log will excecute "how do you do?"
 
 //CODE
 /*
@@ -45,16 +45,17 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable undefined (can be altered in the future). variable is called "secret"
+// variable is declared. "code" has a value of 123
+// conditional. secret is 'super'. code * 2 
+// conditional. if code is higher than 250. the secret will be 'duper'
+// console will show secret
 
 //CODE
 /*
 let secret;
 
-let code = 123;
+let code = 123; 
 
 if(code === 123) {
   secret = 'super';
@@ -70,9 +71,9 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// we are declaring a variable. the variable is called isStudent. the variable is a booling it has a value of true.
+// we are declaring a variable called age it's value is 34
+// we are declaring a variable zip it's value is 55407
 //
 
 //CODE
