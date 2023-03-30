@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// The 'let name' is assigning the variable. 
+// Then it goes into an if statement, so if name is = to mary then it will write out "Hi Mary"
+// If it is not mary then the console will write out "How do you do"
+// We console.log('How do you do')
 
 //CODE
 /*
@@ -45,9 +45,9 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// The secret variable is created, which may be filled in later
+// Assign variable code = 123, as code=123, secret = 'super', code *2, code is now = 246
+// secret will stay super, because code=246<250
 //
 
 //CODE
@@ -70,10 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
+// the variable assigned isStudent = true
+// the variable assigned age = 34
+// the variable assigned zip = 55407
+// the first if statement is saying true is = to true and zip 55407 is > than 80000
+// isStudent = false || age < 30, statement is not true, continues to the next else statement.
+// The second else statement will console.log('Welcome to prime!) as this is a true statement.
 // 
-// 
-// 
-//
 
 //CODE
 /*
@@ -130,13 +133,17 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+//Fix colorOne = 'blue' the two variables were labeled incorrectly and we swapped them
+//Fix colorTwo = 'red'
 let colorOne = 'red';
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  //Fix colorTwo = 'purple'; colorTwo was missing from this true if statement
 }
+// Fix console.log(colorOne) we added this is to verify that colorOne is purple
 */
 
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
@@ -146,7 +153,7 @@ if (mix === true) {
 /*
 let temp = 40;
 const time = 4;
-
+//Fix if (temp > 39 && time >= 4)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
