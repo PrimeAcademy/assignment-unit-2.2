@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// creates a variable number with the value of 1
+//  adds 1 to the value of number
+//  if number is greater than or equal to 2 console.log('yes')
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Storing a variable name and it's equal to 'Dane'
+// Conditional logic that says if name is equal to 'Mary', console.log('Hi, Mary!')
+// If name is not equal to 'Mary', console.log('How do you do?')
+//It will console.log('How do you do?')
 
 //CODE
 /*
@@ -70,10 +70,12 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// creates a variable named secret
+// create a variable named code with the value 123
+// if code is equal to 123 asign the variable secret the value 'super' also multiply the value of code by two
+// if code is greater than 250 assign the variable secret = 'duper
+// console.log(secret)
+// and it will output super
 
 //CODE
 /*
@@ -90,6 +92,14 @@ if (isStudent === true && zip > 80000 ) {
 } else {
   console.log('How about the weather?')
 }
+
+//Setting a variable isStudent equal to true and the variable age equal to 34 and the variable zip equal to 55407
+//if isStudent is strictly equal to 2 and zip is greater than 80000, console.log('you are a student on the West Coast!')
+//else if isStudent is strictly equal false or age < 30, console.log('What are your hobbies?')
+//else if isStudent is equal to true, console.log('Welcome to Prime')
+//else, just console.log('How about the weather?')
+//
+//it should console.log('Welcome to Prime!')
 
 */
 
@@ -139,6 +149,13 @@ if (mix === true) {
 }
 */
 
+
+// colorOne should be equal to blue
+// colorTwo should be equal to red
+// in the if code block add colorTwo to the code block and set it equal to purple.
+
+
+
 //5. We start with two variables -- temp is set to 40 and time is set to 4.
 // We check if temp is higher than 39 and if time is greater or equal to  4 
 // -- they are so we console.log 'throw away the food!'
@@ -151,6 +168,10 @@ if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
 */
+
+// In the conditional statement, the || should be &&
+//
+//
 
 //6. We start with two variables -- age is set to 21 and minAge is set to 21.
 // We check if age is greater than or equal to minAge 
@@ -167,3 +188,9 @@ if(minAge <= age) {
 }
 */
 
+// change the conditional statement to ask if age >= minAge the first console log should read 'enter'
+// the second console log should be 'no entry'
+// 
+// 
+// 
+// 
