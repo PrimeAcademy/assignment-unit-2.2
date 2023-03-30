@@ -26,9 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
+// variable is called name and is set to Dane
+// if condition is name equals Mary we console.log "Hi, Mary"
+// if condition is not equal to Mary we console.log "How do you do"
 //
 
 //CODE
@@ -45,10 +45,10 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// variable called code is set to 123 
+// secret is set to super if 123 mulitplies by 2 equals 123
+// if 246 is greater than 250 the secret is duper
+// since 246 is not greater than 250 console.log is false
 
 //CODE
 /*
