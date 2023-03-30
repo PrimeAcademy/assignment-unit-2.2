@@ -26,10 +26,9 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// If the name variable is Dane, then the console will log 
+// 'How do you do?'
+// Dane is not Mary
 
 //CODE
 /*
@@ -45,10 +44,11 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Two variables, secret and code. 
+// Code is equal to 123 after the first conditional, secret will equal "super" and code will equal 246.
+// After second conditional, code and secret will have the same values. 
+// The console will log "super". 
+
 
 //CODE
 /*
@@ -70,13 +70,13 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Three variables, isStudent, age, zip. 
+// If isStudent is true, and zip > 80000 then the console will log "You're a student on the West Coast!"
+// If isStudent is false, or age < 30, then the console will log "What are your hobbies?" 
+// If isStudent is true, then the console will log "Welcome to Prime!"
+// It would never console log "How about the weather?"
 
 //CODE
-/*
 let isStudent = true;
 let age = 34;
 let zip = 55407;
@@ -91,7 +91,6 @@ if (isStudent === true && zip > 80000 ) {
   console.log('How about the weather?')
 }
 
-*/
 
 
 
