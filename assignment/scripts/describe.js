@@ -26,10 +26,10 @@ if (number >= 2) {
 
 
 // 1. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable `name` and give it the string value 'Dane'.
+// If the `name` variable is the string 'Mary', log 'Hi, Mary!' to the console.
+// Otherwise, log 'How do you do?' to the console.
+// When run, this will log 'How do you do?' to the console.
 
 //CODE
 /*
@@ -45,10 +45,12 @@ if (name === 'Mary') {
 */
 
 // 2. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable `secret` without initially giving it a value (its value will be undefined).
+// Create a variable `code` and give it the numerical value 123.
+// If code is the number 123, give `secret` the string value 'super' and double the value of `code`.
+// If code is greater than 250, change the value of `secret` to the string 'duper'.
+// Log the value of secret to the console.
+// When run, this will log 'super' to the console because 2 * 123 = 246 < 250.
 
 //CODE
 /*
@@ -70,10 +72,14 @@ console.log(secret)
 */
 
 // 3. WRITE YOUR DESCRIPTION HERE
-// 
-// 
-// 
-//
+// Create a variable `isStudent` and give it the boolean value true.
+// Create variables `age` and `zip` and give them the numerical values 34 and 55407, respectively.
+// If `isStudent` is the boolean value true and `zip` is greater than 80000, log 'You're a student on the West Coast!' to the console.
+// Otherwise, if `isStudent` is the boolean value false or `age` is less than 30, log 'What are your hobbies?' to the console.
+// Otherwise, if `isStudent` is the boolean value true, log 'Welcome to Prime!' to the console.
+// Finally, if none of the above conditions were met, log 'How about the weather?' to the console.
+// Because `isStudent` is true and `zip` is not greater than 80000, the first two conditions will not be met but the third will.
+// Therefore, when run, the program will log 'Welcome to Prime!' to the console.
 
 //CODE
 /*
@@ -130,12 +136,15 @@ if (number >= 2) {
 // -- it is, so we set colorOne and colorTwo to 'purple'
 
 /*
+// FIX - `colorOne` should be 'blue'
 let colorOne = 'red';
+// FIX - `colorTwo` should be 'red'
 let colorTwo = 'blue';
 let mix = true;
 
 if (mix === true) {
   colorOne = 'purple';
+  // FIX - we are missing a line setting `colorTwo` to 'purple', so it will retain its initial value.
 }
 */
 
@@ -147,6 +156,7 @@ if (mix === true) {
 let temp = 40;
 const time = 4;
 
+// FIX - this is an using the OR operator (||), when it should be using the AND operator (&&)
 if (temp > 39 || time >= 4) {
   console.log('throw away the food!');
 }
@@ -160,8 +170,11 @@ if (temp > 39 || time >= 4) {
 let age = 21;
 const minAge = 21;
 
+// Correct but slightly confusing. Given the description above, it would be clearer to use `age >= minAge`.
 if(minAge <= age) {
+  // FIX - this should log 'enter' instead
   console.log('no entry');
+// FIX - the else statement should either be removed or changed to 'no entry'.
 } else {
   console.log('enter');
 }
